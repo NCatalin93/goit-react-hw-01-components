@@ -70,6 +70,7 @@
 
 .stats > li > span:hover {
   color: #fd9222;
+  cursor: pointer;
 }
 
 .label {

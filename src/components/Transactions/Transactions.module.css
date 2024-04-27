@@ -1,0 +1,42 @@
+.transactionHistory {
+  margin-top: 30px;
+  box-shadow: 0 0 10px #cccccc;
+  width: 370px;
+  border-spacing: 0;
+}
+
+thead tr {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+table th {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #524a4d;
+}
+
+table td {
+  padding: 10px;
+  width: inherit;
+  font-weight: 700;
+  font-size: 15px;
+  color: #524a4d;
+  justify-content: center;
+}
+
+table tr {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #cccccc;
+}
+
+table tr td:hover {
+  color: #fd9222;
+  cursor: pointer;
+}
+
+table tr:not(:last-child) {
+  margin-bottom: 5px;
+}
